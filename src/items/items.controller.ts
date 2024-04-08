@@ -1,4 +1,4 @@
-import { Body, Controller, Delete, Get, Param, Patch, Post } from '@nestjs/common';
+import { Body, Controller, Delete, Get, Param, ParseUUIDPipe, Patch, Post } from '@nestjs/common';
 import { ItemsService } from './items.service';
 import { Item } from './items.model';
 import { CreateItemDto } from './dto/create-item.dto';
