@@ -1,5 +1,4 @@
 import { Column, Entity, PrimaryGeneratedColumn } from "typeorm";
-import { IsString } from 'class-validator';
 import { ItemStatus } from "src/items/item-status.enum";
 
 @Entity()
@@ -21,7 +20,7 @@ export class Item {
 
     @Column() 
     createdAt: string
-    
+
     @Column() 
     updatedAt: string
 }
